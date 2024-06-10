@@ -1,0 +1,67 @@
+# 이 .gitignore 파일은 Unity 프로젝트에 사용됩니다.
+
+# 운영 체제에서 생성된 파일을 제외합니다.
+.DS_Store
+Thumbs.db
+
+# 사용자별 Visual Studio, MonoDevelop, Consulo에서 자동 생성된 파일을 제외합니다.
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Unity가 생성하는 임시 폴더와 빌드 결과 폴더를 제외합니다.
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Ss]ystemBackups/
+
+# Unity가 생성하는 파일을 제외합니다.
+sysinfo.txt
+
+# 빌드 결과 파일을 제외합니다.
+*.apk
+*.aab
+*.ipa
+*.unitypackage
+
+# Crashlytics에서 생성되는 파일을 제외합니다.
+crashlytics-build.properties
+
+# Unity Cloud Build 서비스에서 생성되는 파일을 제외합니다.
+[Aa]ssets/UnityCloudBuildManifest.json
+
+# Rider 프로젝트 파일을 제외합니다.
+.idea/
+*.sln.iml
+
+# JetBrains Rider에서 생성되는 파일을 제외합니다.
+.idea/
+*.sln.iml
+
+# 일부 파일을 제외합니다.
+*.swp
+*.tmp
+*.temp
+*.tmp.*
+*.temp.*
+~$*
+
+# 에디터에서 생성되는 파일을 제외합니다.
+.vscode/
+
+# 에셋 메타 데이터는 제외하지 않습니다.
+# *.asset
+# *.meta
+
+# 에셋스토어 도구 플러그인을 제외하려면 이 줄의 주석을 제거하세요.
+# [Aa]ssets/AssetStoreTools*
